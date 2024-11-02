@@ -1,0 +1,549 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicka - Website oficial</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="img/logo a color.ico" type="image/x-icon">
+</head>
+
+<body id="inicio">
+
+    <header>
+
+        <div class="menu container">
+            <img class="logo-1" src="img/logo a color.png" alt="">
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <img src="img/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <div class="menu-1">
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#productos">Productos</a></li>
+                        <li><a href="#horario">Contactos</a></li>
+                    </ul>
+                </div>
+                <img class="logo-2" src="img/logo a color.png" alt="">
+                <div class="menu-2">
+                    <ul>
+                        <li><a href="#horario">Horarios</a></li>
+                    </ul>
+                    <div class="socials">
+                        <a href="https://www.facebook.com/gladiquizhpe/?locale=es_LA" target="_blank">
+                            <div class="social">
+                                <img src="img/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </div>
+
+
+        <!-- SEGUNDA SECCION DEL HEADER -->
+        <div class="header-content container">
+
+            <div class="swiper mySwiper-1">
+                <div class="swiper-wrapper">
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>Nuestros productos</h1>
+                                <p>
+                                    Estos están hechos con la mejor calidad, con semillas de cacao
+                                    
+                                    escojidas y seleccionadas, cada proceso lo hacemos con dedicación y amor, 
+
+                                    para que cada uno de ellos llegue a tu paladar de una manera única.
+                                </p>
+                                <div class="botones">
+                                    <a href="javascript:abrir()" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">Productos</a>
+
+                                </div>
+                             
+                            </div>
+                            <div class="slider-img">
+                                <img src="img/producg1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>fundadora</h1>
+                                <p>
+                                    Gladis Quizhpe, una persona con grandes aspiraciones y una determinación inquebrantable para alcanzar sus metas, da vida
+                                    a la marca Nicka con la noble misión de llevar el mejor chocolate amazónico al mundo.
+                                    Hija de un productor de cacao, decide darle el valor agregado a este producto, el cual pasaba por crisis, 
+                                    donde el precio del cacao era muy bajo.
+                                </p>
+                                <div class="botones">
+                                    
+
+                                </div>
+                             
+                            </div>
+                            <div class="slider-img">
+                                <img src="img/fundadora1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>TABLETAS
+                                    
+                                </h1>
+                                <p>
+                                    Cada bocado es una experiencia sensorial única que combina la suavidad del chocolate con rellenos irresistibles que van
+                                    desde cremosas trufas hasta frutos secos crujientes. Elaborados con los mejores ingredientes y cuidadosamente
+                                    seleccionados, los bombones de chocolate Nicka son el regalo perfecto para cualquier ocasión especial o simplemente para
+                                    darse un capricho.
+                                </p>
+                                <div class="botones">
+                                    <a href="javascript:abrir()" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">menu</a>
+
+                                </div>
+                             
+                            </div>
+                            <div class="slider-img">
+                                <img style="height: 300px;" src="img/jbmb3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="slider">
+                            <div class="slider-txt">
+                                <h1>INNOVACIONES</h1>
+                                <p>
+                                    Nicka se distingue por su constante búsqueda de la innovación en sus productos, y en su afán por darle todo el valor que el cacao se merece,
+                                    presenta con orgullo sus últimas creaciones: el exquisito Licor de Cacao MUNAY, la Jalea de cacao y la corteza del cacao como forma de decoración. 
+                                </p>
+                                <div class="botones">
+                                    <a href="javascript:abrir()" class="btn-1">Comprar</a>
+                                    <a href="#productos" class="btn-1">menu</a>
+
+                                </div>
+                             
+                            </div>
+                            <div class="slider-img">
+                                <img style="height: 400px; width: 300px; margin-left: 25px;" src="img/vino3.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        
+
+    </header>
+
+    <div class="ventana" id="vent">
+
+        <div class="cerrar">
+          <a href="javascript:cerrar()"><img src="img/error.png" alt="icono de cerrar"></a>
+            
+        </div>
+
+        <h4>UPS! SEGUIMOS TRABAJANDO EN ELLO</h4>
+        <p>Puedes visitar una tienda online en WhatsApp</p>
+        <span>098 257 8498</span>
+        <br>
+        <br>
+        <img class="imgtrabajo" src="img/computer-146329_1280.png" alt="">
+        <p>Regresa pronto :)</p>
+
+    </div>
+
+
+    <main class="products" id="productos">
+        <div class="tabs container">
+            <input type="radio" name="tabs" id="tab1" checked="checked" class="tabInput" value="1">
+            <label for="tab1">bombones</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper1">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/bmb1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Caja de bombones</h4>
+                                    <p>Con relleno de jalea de cacao</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$3,50</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/bmb2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Caja de bombones</h4>
+                                    <p>Con relleno de maracuyá</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$3,50</span>
+                                </div>
+                            </div>
+                        </div>    
+    
+                    </div>
+    
+    
+    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+    
+    
+                </div>
+    
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab2" checked="checked" class="tabInput" value="2">
+            <label for="tab2">tabletas</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper2">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/pasta1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Tableta de pasta de cacao</h4>
+                                    <p>227 g</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$5.00</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/pasta1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Tableta de pasta de cacao</h4>
+                                    <p>454 g</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$10.00</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/pasta2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Chocolate dulce</h4>
+                                    <p>Chocolate amazónico al 55%</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$1.50</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/pasta3.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Chocolate semiamargo</h4>
+                                    <p>Chocolate amazónico al 75%</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$1.50</span>
+                                </div>
+                            </div>
+                        </div>
+    
+    
+    
+                    </div>
+    
+    
+    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+    
+    
+                </div>
+    
+            </div>
+
+
+            <input type="radio" name="tabs" id="tab3" checked="checked" class="tabInput" value="3">
+            <label for="tab3">vino</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper3">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/vino1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Licor de cacao</h4>
+                                    <p>Alc 12% (Vol.) 750ml</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$ 12.50</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/vino2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Licor de cacao</h4>
+                                    <p>Alc 12% (Vol.) 750ml</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$ 12.50</span>
+                                </div>
+                            </div>
+                        </div>    
+    
+                    </div>
+    
+    
+    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+    
+    
+                </div>
+    
+            </div>
+
+            <input type="radio" name="tabs" id="tab4" checked="checked" class="tabInput" value="4">
+            <label for="tab4">variedades</label>
+            <div class="tab">
+                <div class="swiper mySwiper-2" id="swiper4">
+                    <div class="swiper-wrapper">
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/chip1.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Nibs</h4>
+                                    <p>semillas de cacao</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$1.00</span>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="swiper-slide">
+                            <div class="product">
+                                <div class="product-img">
+                                    <h4>nuevo</h4>
+                                    <img src="img/vino2.jpg" alt="">
+                                </div>
+                                <div class="product-txt">
+                                    <h4>Licor de cacao</h4>
+                                    <p>Alc 12% (Vol.) 750ml</p>
+                                    <p>calidad premiun</p>
+                                    <span class="price">$ 12.50</span>
+                                </div>
+                            </div>
+                        </div>    
+    
+                    </div>
+    
+    
+    
+                    <div class="swiper-button-next"></div>
+                    <div class="swiper-button-prev"></div>
+    
+    
+                </div>
+    
+            </div>
+
+        </div>    
+    </main>
+
+    <section class="info container">
+
+        <div class="info-img">
+            <img src="img/logo a color.png" alt="">
+        </div>
+        <div class="info-txt">
+            <h2>MARCA</h2>
+            <p>
+                Nicka es mucho más que una simple marca de chocolate amazónico. Fundada por Gladis Quizhpe, nace de un sueño arraigado en
+                el deseo de otorgar valor al cacao amazónico de Zamora Chinchipe. Esta emprendedora visionaria se sumerge en un
+                constante proceso de capacitación para garantizar a sus clientes las experiencias más exquisitas con el chocolate. Su
+                enfoque en la innovación se refleja en la calidad y diversidad de sus productos, que buscan deleitar los paladares más
+                exigentes con sabores únicos y auténticos. Con Nicka, cada bocado es una aventura sensorial que celebra la riqueza y la
+                mágia del cacao amazónico.
+            </p>
+            <a href="#" class="btn-2">Mas  informacion</a>
+        </div>
+
+    </section>
+
+    <section class="horario" id="horario">
+        <div class="horario-info container">
+    
+            <h2>contactos</h2>
+            <div class="horario-txt">
+                <div class="txt">
+                    
+                    <h4>Dirección</h4>
+                    <p>Troncal Amazonica, Zamora, Ecuador</p>
+                    
+                </div>
+                <div class="txt">
+                    <h4>Horario</h4>
+
+                    <p>Lunes a viernes: 9am - 5pm</p>
+                    <p>Sabados y domingos: 11am - 3pm</p>
+                </div>
+                <div class="txt">
+                    <h4>Teléfono</h4>
+                    
+
+                    <p>+593 98 257 8498</p>
+                    <p>+593 98 257 8498</p>
+                </div>
+                <div class="txt">
+                    <h4>Redes sociales</h4>
+
+                    <div class="socials">
+                        <a href="https://www.facebook.com/gladiquizhpe/?locale=es_LA" target="_blank">
+                            <div class="social">
+                                <img src="img/s1.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s2.svg" alt="">
+                            </div>
+                        </a>
+                        <a href="#">
+                            <div class="social">
+                                <img src="img/s3.svg" alt="">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+    </section>
+
+    <section class="map-container">
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3979.9026386039286!2d-78.91509302526514!3d-4.0402881959334245!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91cb13fa17732429%3A0xe17ba0b8a714d2c0!2sNicka%20Chocolate!5e0!3m2!1ses!2sec!4v1714839980067!5m2!1ses!2sec" width="100%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>    
+    </section>
+
+    <footer class="footer container">
+        <img class="logo-2" src="img/logo a color.png" alt="">
+        <div class="links">
+            <h4>Mas sobre nosotros</h4>
+            <ul>
+                <li><a href="https://www.directorio593.com/clasificados/nicka-chocolates.html" target="_blank">Fundación Futuro Latinoamericano</a></li>
+                <li><a href="https://soyemprendedora.ec/nicka/" target="_blank">Soy emprendedora</a></li>
+                <li><a href="https://www.revistalideres.ec/lideres/nicka-chocolates-poseen-sabor-amazonia.html" target="_blank">Revista Líderes</a></li>
+                <li><a href="https://infomercado.net/ecuador/nicka-la-marca-del-chocolate-elaborado-por-una-mujer-en-la-amazonia-de-ecuador/" target="_blank">Infomercado</a></li>
+                <li><a href="https://www.directorio593.com/clasificados/nicka-chocolates.html" target="_blank">Directorio</a></li>
+
+                <li><a href="https://www.ffla.net/es/" target="_blank">FFLA</a></li>
+                
+
+            </ul>
+        </div>
+
+        <div class="links">
+            <h4>Entrevistas</h4>
+            <ul>
+                <li><a href="https://www.facebook.com/watch/live/?ref=watch_permalink&v=338862341196911" target="_blank">Radio de la Asamblea Nacional</a></li>
+                <li><a href="https://www.instagram.com/aprendeyemprendeincubadora/reel/CbfqsDtMBQC/?hl=es" target="_blank">Aprendeyemprende</a></li>
+                
+            </ul>
+        </div>
+
+       
+
+        <div class="links">
+            <h4>Redes sociales</h4>
+            <div class="socials">
+                <a href="https://www.facebook.com/gladiquizhpe/?locale=es_LA" target="_blank">
+                    <div class="social">
+                        <img src="img/s1.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="img/s2.svg" alt="">
+                    </div>
+                </a>
+                <a href="#">
+                    <div class="social">
+                        <img src="img/s3.svg" alt="">
+                    </div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="footer-dr">
+        <p>&copy; 2024 NIKCA CHOCOLATE. TODOS LOS DERECHOS RESERVADOS. Sitio web diseñado por Rikchay Quizhpe</p>
+        
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="script.js"></script>
+    
+</body>
+
+</html>
